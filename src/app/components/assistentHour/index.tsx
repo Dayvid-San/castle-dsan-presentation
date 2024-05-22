@@ -10,7 +10,11 @@ const AssistentHour = () => {
     const hour = date.getHours();
     const [count, setCount] = useState(0);
     const phrases = [
-        "Olá! Sou Percival, à vossa disposição. Tenho a honra de ser o guardião deste lugar e serei o vosso guia durante a vossa estada. Sr. Dayvid, meu lorde, me instruiu a guia-los",
+        "Olá! Sou Percival, à vossa disposição. Tenho a honra de ser o guardião deste lugar e serei o vosso guia durante a vossa estada. Sr. Dayvid, meu lorde, me instruiu a guia-los.",
+        "Vamos começar. Presione enter para facilitar!",
+        "Logo acima, é possível avistar botões confeccionados em pedras. Estes botões estabelecem links a sites e executam funções essenciais no vosso dia a dia. Podeis personalizar vossos botões, acrescentando os links de vossa preferência, alterando seus nomes e até mesmo criando botões que realizem funções conforme vossos desejos.",
+        "À vossa esquerda, encontra-se um quadro de avisos que pode ser personalizado conforme vossas necessidades. Vós podeis criar anotações, listas ou qualquer outra coisa que desejar.",
+        "Acima deste, encontra-se um relógio e, acima do relógio, está o vosso XP. Vós adquiris mais XP à medida que completardes missões, executardes trabalhos extras e realizardes tarefas importantes.",
         "Rogo-vos que não vos preocupeis com a desordem presente! Fui tomado por grande entusiasmo ao preparar vossa recepção e desejei ardentemente vossa chegada o mais breve possível.",
     ]
 
